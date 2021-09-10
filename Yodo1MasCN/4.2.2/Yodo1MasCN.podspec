@@ -37,6 +37,7 @@ s.static_framework = true
 #s.vendored_frameworks = s.name + '/Lib/**/*.framework'
 s.resource = s.name + '/Assets/**/*'
 s.frameworks = 'UIKit', 'Foundation'
+s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.2.2'
 s.dependency 'Yodo1MasMediationApplovinMax', '4.2.2'
 #s.dependency 'Yodo1MasMediationMintegralMax', '4.2.2'

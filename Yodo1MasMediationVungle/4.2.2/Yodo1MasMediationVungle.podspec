@@ -37,6 +37,7 @@ s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 arm
 s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.frameworks = 'UIKit', 'Foundation'
+s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.2.2'
 s.dependency 'VungleSDK-iOS', '6.9.2'
 
