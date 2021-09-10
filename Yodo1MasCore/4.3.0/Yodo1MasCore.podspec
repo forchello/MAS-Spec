@@ -143,6 +143,7 @@ s.info_plist = {
 {'SKAdNetworkIdentifier' => '7953jerfzd.skadnetwork'}
 ]
 }
+s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 armv7s x86_64", "VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s", "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64"}
 s.resource = s.name + '/Assets/**/*'
 s.source_files = s.name + '/Classes/**/*'

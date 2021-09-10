@@ -36,6 +36,7 @@ s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 arm
 s.resource = s.name + '/Assets/**/*'
 s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
+s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.3.0'
 s.dependency 'myTargetSDK', '5.12.0'
 

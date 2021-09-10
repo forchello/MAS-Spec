@@ -40,6 +40,7 @@ s.frameworks = 'StoreKit', 'Security','CoreTelephony', 'AdSupport','CoreLocation
 s.weak_frameworks = 'WebKit'
 s.libraries = 'xml2', 'z'
 s.vendored_libraries = s.name + '/Lib/*.a'
+s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.3.0'
 
 end
