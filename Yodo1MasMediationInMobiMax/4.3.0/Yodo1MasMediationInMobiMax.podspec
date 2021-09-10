@@ -30,6 +30,7 @@ s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { 'Yodo1Games' => 'devadmin@yodo1.com' }
 s.source = { :http => 'https://mas-artifacts.yodo1.com/4.3.0/iOS/Release/Yodo1MasMediationInMobiMax-4.3.0.zip' }
 s.ios.deployment_target = '9.0'
+s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 armv7s x86_64", "VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s", "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64"}
 
 s.static_framework = true
