@@ -168,5 +168,4 @@ s.public_header_files = s.name + '/Classes/**/*.h'
 s.frameworks = 'UIKit', 'Foundation'
 s.dependency 'AFNetworking'
 s.dependency 'YYModel'
-  
 end
