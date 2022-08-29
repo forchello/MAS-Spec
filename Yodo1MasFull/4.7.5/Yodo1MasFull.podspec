@@ -57,4 +57,5 @@ s.dependency 'Yodo1MasMediationUnityAds', '4.7.5'
 s.dependency 'Yodo1MasMediationVungle', '4.7.5'
 s.dependency 'Yodo1MasMediationYandex', '4.7.5'
 s.dependency 'Yodo1MasMediationYodo1', '4.7.5'
+
 end
