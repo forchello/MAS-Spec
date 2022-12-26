@@ -172,4 +172,5 @@ s.requires_arc = true
 
 s.dependency 'AFNetworking'
 s.dependency 'YYModel'
+  
 end
