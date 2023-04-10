@@ -60,3 +60,5 @@ s.dependency 'Yodo1MasMediationVungle', '4.8.8'
 s.dependency 'Yodo1MasMediationYandex', '4.8.8'
 s.dependency 'Yodo1MasMediationYodo1', '4.8.8'
 end
+
+
