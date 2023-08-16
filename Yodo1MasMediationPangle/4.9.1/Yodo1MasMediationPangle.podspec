@@ -44,7 +44,7 @@ sub.source_files = s.name + '/Classes/**/*'
 sub.public_header_files = s.name + '/Classes/**/*.h'
 sub.dependency 'Yodo1MasCore', '4.9.1'
 sub.dependency 'Ads-Global/BUAdSDK_Compatible', '5.3.1.1'
-sub.dependency 'Ads-CN/BUAdSDK_Compatible', '4.9.1.7'
+sub.dependency 'Ads-CN/BUAdSDK_Compatible', '4.9.0.7'
 end
 s.subspec 'AppLovin' do |sub|
 sub.dependency 'Yodo1MasMediationPangle/Core', '4.9.1'
