@@ -43,7 +43,7 @@ sub.resource = s.name + '/Assets/**/*'
 
 sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '4.13.2'
-sub.dependency 'FBAudienceNetwork', '6.15.0'
+sub.dependency 'FBAudienceNetwork', '6.15.1'
 end
 s.subspec 'AppLovin' do |sub|
 sub.dependency 'Yodo1MasMediationFacebook/Core', '4.13.2'
