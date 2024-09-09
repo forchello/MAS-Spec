@@ -57,7 +57,6 @@ s.dependency 'Yodo1MasMediationCSJ', '4.13.2'
 s.dependency 'Yodo1MasMediationTencent', '4.13.2'
 s.dependency 'Yodo1MasMediationUnityAds', '4.13.2'
 s.dependency 'Yodo1MasMediationVungle', '4.13.2'
-s.dependency 'Yodo1MasMediationYandex', '4.13.2'
 # s.dependency, '4.13.2'
 s.dependency 'Yodo1MasMediationYodo1', '4.13.2'
 end
