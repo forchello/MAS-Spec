@@ -43,8 +43,8 @@ sub.resource = s.name + '/Assets/**/*'
 
 sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '4.13.2'
-sub.dependency 'MintegralAdSDK', '7.6.7'
-sub.dependency 'MintegralAdSDK/BidSplashAd', '7.6.7'
+sub.dependency 'MintegralAdSDK', '7.6.1'
+sub.dependency 'MintegralAdSDK/BidSplashAd', '7.6.1'
 end
 s.subspec 'AppLovin' do |sub|
 sub.dependency 'Yodo1MasMediationMintegral/Core', '4.13.2'
