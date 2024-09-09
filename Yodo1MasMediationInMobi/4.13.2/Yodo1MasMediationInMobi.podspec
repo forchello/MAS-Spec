@@ -43,7 +43,7 @@ sub.resource = s.name + '/Assets/**/*'
 
 sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '4.13.2'
-sub.dependency 'InMobiSDK', '10.7.4'
+sub.dependency 'InMobiSDK', '10.7.2'
 end
 s.subspec 'AppLovin' do |sub|
 sub.dependency 'Yodo1MasMediationInMobi/Core', '4.13.2'
