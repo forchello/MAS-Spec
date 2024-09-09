@@ -25,7 +25,7 @@ DESC
 s.homepage = 'https://www.yodo1.com/'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { 'Yodo1Games' => 'devadmin@yodo1.com' }
-s.source = { :http => 'https://mas-artifacts.yodo1.com/4.13.2/iOS/Release/Yodo1MasCore-4.13.2.zip' }
+s.source = { :http => 'https://github.com/forchello/MAS-Spec/releases/download/v4.13.2/Yodo1MasCore-4.13.2.zip' }
 s.static_framework = true
 s.ios.deployment_target = '12.0'
 s.info_plist = {
